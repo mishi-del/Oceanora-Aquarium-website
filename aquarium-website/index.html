@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaLumi - Ocean Wonders Aquarium | Discover Marine Life</title>
+    <meta name="description" content="Immerse yourself in a world of bioluminescent beauty and marine majesty at AquaLumi Aquarium" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header class="header">
+      <nav class="navbar" id="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+          <!-- Logo -->
+          <div class="nav-logo">
+            <span class="logo-text">Oceannora</span>
+          </div>
+
+          <!-- Main Navigation -->
+          <ul class="nav-menu" id="navMenu" role="menubar">
+            <li role="none">
+              <a href="./index.html" class="nav-link" role="menuitem" aria-current="page">Home</a>
+            </li>
+            <li role="none">
+              <a href="./pages/animals.html" class="nav-link" role="menuitem">Animals</a>
+            </li>
+            <li role="none">
+              <a href="./pages/events.html" class="nav-link" role="menuitem">Events</a>
+            </li>
+            <li role="none">
+              <a href="./pages/tickets.html" class="nav-link" role="menuitem">Tickets</a>
+            </li>
+            <li role="none">
+              <a href="./pages/contact.html" class="nav-link" role="menuitem">Contact</a>
+            </li>
+             <li role="none">
+              <a href="./pages/exhibits.html" class="nav-link" role="menuitem">Exhibits</a>
+            </li>
+             <li role="none">
+              <a href="./pages/visit.html" class="nav-link" role="menuitem">Visit</a>
+            </li>
+          </ul>
+
+          <!-- Call to Action -->
+          <button class="nav-cta" aria-label="Buy tickets for AquaLumi Aquarium">
+            Buy Tickets
+          </button>
+
+          <!-- Mobile Menu Toggle -->
+          <button 
+            class="mobile-toggle" 
+            id="mobileToggle" 
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="navMenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="video-container">
+          <div class="video-overlay" aria-hidden="true"></div>
+          <div class="video-gradient" aria-hidden="true"></div>
+          <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            poster="https://static.lumi.new/77/772fd606c2a9acb056060bdc5f9c7bcf.png" 
+            class="hero-video"
+            aria-label="Background video showing marine life in aquarium"
+          >
+            <source src="../aquarium-website/assets/images/From KlickPin CF Colorful Fish in a Beautiful Aquarium.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        
+        <div class="hero-content">
+          <h2 class="hero-subtitle fade-in">Discover the Deep</h2>
+          <h1 id="hero-title" class="hero-title fade-in-up">Ocean Wonders Aquarium</h1>
+          <p class="hero-description fade-in-delay">
+            Immerse yourself in a world of bioluminescent beauty and marine majesty. 
+            Experience the ocean like never before at AquaLumi.
+          </p>
+          <div class="hero-buttons fade-in-delay-2">
+            <button class="btn-primary">Plan Your Visit</button>
+            <button class="btn-secondary">View Gallery</button>
+          </div>
+        </div>
+        
+        <div class="scroll-indicator" aria-hidden="true">
+          <span>Scroll</span>
+          <div class="scroll-arrow">↓</div>
+        </div>
+      </section>
+
+    <!-- Highlights Section -->
+<section id="highlights" class="section highlights-section" aria-labelledby="highlights-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="highlights-title" class="section-title">Aquarium Highlights</h2>
+      <div class="title-underline" aria-hidden="true"></div>
+      <p class="section-subtitle">Immerse yourself in our world-class marine exhibits and unforgettable encounters</p>
+    </div>
+    
+    <div class="highlights-grid">
+      <article class="highlight-card">
+        <div class="card-image-container">
+          <img 
+            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+            alt="Vibrant tropical coral reef with colorful fish swimming"
+            class="card-image"
+          />
+          <div class="card-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-icon"></div>
+          <h3 class="card-title">Tropical Paradise</h3>
+          <p class="card-description">Explore vibrant coral reefs teeming with exotic fish from tropical waters around the world</p>
+          <button class="card-cta">Explore Exhibit</button>
+        </div>
+      </article>
+      
+      <article class="highlight-card">
+        <div class="card-image-container">
+          <img 
+            src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+            alt="Shark swimming through underwater tunnel"
+            class="card-image"
+          />
+          <div class="card-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-icon"></div>
+          <h3 class="card-title">Shark Encounter</h3>
+          <p class="card-description">Walk through our 360° transparent tunnel surrounded by majestic sharks and rays</p>
+          <button class="card-cta">Dive In</button>
+        </div>
+      </article>
+      
+      <article class="highlight-card">
+        <div class="card-image-container">
+          <img 
+            src="https://cdn.pixabay.com/photo/2018/11/13/22/36/jellyfish-3814142_1280.jpg" 
+            alt="Bioluminescent jellyfish glowing in dark water"
+            class="card-image"
+          />
+          <div class="card-overlay"></div>
+        </div>
+        <div class="card-content">
+          <div class="card-icon"></div>
+          <h3 class="card-title">Jellyfish Gallery</h3>
+          <p class="card-description">Experience the mesmerizing dance of bioluminescent jellyfish in our darkened gallery</p>
+          <button class="card-cta">Discover Magic</button>
+        </div>
+      </article>
+  </div>
+</section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="section-header-split">
+            <div>
+              <h2 id="gallery-title" class="section-title">Marine Life Gallery</h2>
+              <div class="title-underline" aria-hidden="true"></div>
+            </div>
+            <p class="gallery-description">A glimpse into the vibrant ecosystems thriving within our tanks.</p>
+          </div>
+          
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-large">
+              <img 
+                src="https://static.lumi.new/4d/4d8441fc0390f44641abb10f39378e53.png" 
+                alt="Sharks swimming in the aquarium's main tank" 
+              />
+              <figcaption class="gallery-overlay">
+                <span class="gallery-category">Sharks</span>
+                <h3 class="gallery-title">Apex Predators</h3>
+              </figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+              <img 
+                src="https://static.lumi.new/d9/d93e7dcf2bf8c0d405eece383d76c52f.png" 
+                alt="Bioluminescent jellyfish glowing in dark water" 
+              />
+              <figcaption class="gallery-overlay">
+                <span class="gallery-category">Jellyfish</span>
+                <h3 class="gallery-title">Deep Glow</h3>
+              </figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+              <img 
+                src="https://static.lumi.new/70/70332fe8c9253d1d8c26d89888f5eae4.png" 
+                alt="Playful otters swimming and interacting" 
+              />
+              <figcaption class="gallery-overlay">
+                <span class="gallery-category">Otters</span>
+                <h3 class="gallery-title">Playful Spirits</h3>
+              </figcaption>
+            </figure>
+            
+            <figure class="gallery-item gallery-wide">
+              <img 
+                src="https://static.lumi.new/77/772fd606c2a9acb056060bdc5f9c7bcf.png" 
+                alt="Colorful coral reef with tropical fish" 
+              />
+              <figcaption class="gallery-overlay">
+                <span class="gallery-category">Reefs</span>
+                <h3 class="gallery-title">Coral Gardens</h3>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visitor Info Section -->
+      <section id="visit" class="section visitor-section" aria-labelledby="visit-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="visit-title" class="section-title">Plan Your Visit</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          
+          <div class="visitor-grid">
+            <article class="visitor-card glass-panel">
+              <h3 class="visitor-card-title">Opening Hours</h3>
+              <dl class="hours-list">
+                <div class="hours-item">
+                  <dt class="day">Monday - Friday</dt>
+                  <dd class="time">9:00 AM - 6:00 PM</dd>
+                </div>
+                <div class="hours-item">
+                  <dt class="day">Saturday - Sunday</dt>
+                  <dd class="time">8:00 AM - 8:00 PM</dd>
+                </div>
+                <div class="hours-item">
+                  <dt class="day">Holidays</dt>
+                  <dd class="time">10:00 AM - 5:00 PM</dd>
+                </div>
+              </dl>
+            </article>
+            
+            <article class="visitor-card glass-panel">
+              <h3 class="visitor-card-title">Location & Contact</h3>
+              <address class="contact-list">
+                <div class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">📍</span>
+                  <span>123 Ocean Drive, Marine City, MC 12345</span>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">📞</span>
+                  <a href="tel:+15551234567">(555) 123-4567</a>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">✉️</span>
+                  <a href="mailto:info@aqualumi.com">info@aqualumi.com</a>
+                </div>
+              </address>
+            </article>
+            
+            <article class="visitor-card glass-panel schedule-card">
+              <h3 class="visitor-card-title">Daily Schedule</h3>
+              <dl class="schedule-list">
+                <div class="schedule-item">
+                  <dt class="schedule-time">10:00 AM</dt>
+                  <dd class="schedule-event">Dolphin Show</dd>
+                </div>
+                <div class="schedule-item">
+                  <dt class="schedule-time">12:00 PM</dt>
+                  <dd class="schedule-event">Feeding Time</dd>
+                </div>
+                <div class="schedule-item">
+                  <dt class="schedule-time">2:00 PM</dt>
+                  <dd class="schedule-event">Dive with Sharks</dd>
+                </div>
+                <div class="schedule-item">
+                  <dt class="schedule-time">4:00 PM</dt>
+                  <dd class="schedule-event">Touch Tank</dd>
+                </div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer" aria-labelledby="footer-heading">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon" aria-hidden="true">🌊</span>
+              <span class="logo-text">AquaLumi</span>
+            </div>
+            <p class="footer-description">
+              Dive into wonder. Experience the ocean's mysteries up close at the world's most immersive aquarium.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Visit our Facebook page">f</a>
+              <a href="#" class="social-link" aria-label="Follow us on Twitter">𝕏</a>
+              <a href="#" class="social-link" aria-label="See our Instagram">📷</a>
+              <a href="#" class="social-link" aria-label="Watch our YouTube channel">▶</a>
+            </div>
+          </div>
+          
+          <div class="footer-column">
+            <h4 id="footer-heading" class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#highlights">Exhibits</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#visit">Visit Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Information</h4>
+            <ul class="footer-links">
+              <li><a href="#">Tickets & Pricing</a></li>
+              <li><a href="#">Group Visits</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Newsletter</h4>
+            <p class="newsletter-text">Stay updated with our latest exhibits and events</p>
+            <form class="newsletter-form">
+              <label for="newsletter-email" class="visually-hidden">Email address</label>
+              <input 
+                type="email" 
+                id="newsletter-email"
+                placeholder="Enter your email" 
+                class="newsletter-input" 
+                required 
+              />
+              <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2024 AquaLumi Aquarium. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../aquarium-website/assets/js/main.js"></script>
+  </body>
+</html>
